@@ -560,20 +560,20 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
 .mb-10 {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mt-1 {
   margin-top: 0.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .block {
@@ -658,6 +658,10 @@ video {
 
 .overflow-scroll {
   overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .rounded-md {
@@ -843,12 +847,12 @@ video {
   font-weight: 700;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .font-medium {
   font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-black {
@@ -968,6 +972,10 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 .hover\:scale-125:hover {
