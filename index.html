@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="h-screen w-screen flex justify-center items-center font-serif">
+    <div class="rounded-md p-5 border-2 border-black">
+        <h1 class="font-bold mb-1 text-2xl">Todo</h1>
+        <div class="inputBox mb-1 border-2 rounded-sm p-1 flex justify-between">
+            <input class="outline-none  p-1" type="text" name="" id="newTask" placeholder="Enter a Task">
+            <button class="bg-green-500 rounded-md p-0.5 px-3 text-white transition-all shadow-md hover:shadow-none "
+                type="button" id="addBtn" onclick="createTask()">Add</button>
+        </div>
+        <div class="p-1 border-2 rounded-sm w-72 mb-1 transition-all" id="tasks">
+        </div>
+        <div class="p-1 border" id="completedTasks">
+        </div>
+
+        <div class="mt-1 flex justify-around text-sm p-1">
+            <p class=""><span class="text-green-500">&#x2714;</span> Completed</p>
+            <p>✏️ Edit</p>
+            <p>🗑️ Delete</p>
+              
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
