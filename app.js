@@ -23,7 +23,7 @@ const loadTasks = () => {
             } else {
                 tasksElement.innerHTML +=
                     `<div class="taskBox flex py-0.5 justify-between border-b" id="${index}">
-                <p class="task text-slate-600 w-3/5">${element.name}</p>
+                <p class="task text-slate-600 w-3/5 overflow-x-auto">${element.name}</p>
                 <button type="button" class="transition-all hover:scale-125 text-green-500" onclick="TaskCompleted(event,true)">
                 &#x2714;
                 </button>
